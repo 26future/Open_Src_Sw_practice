@@ -24,12 +24,7 @@ import org.w3c.dom.Document;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-public class searcher {
-	public static double InnerProduct(double doc_weight, int query_weight) {
-		double inner_product = doc_weight * query_weight;
-		return inner_product;
-	}
-	
+public class searcher {	
 	public void calcSim(String path, String query) throws SAXException, IOException, ParserConfigurationException, TransformerException, ClassNotFoundException{
 		// hashmap 불러오기
 		File file = new File(path);
