@@ -1,5 +1,6 @@
 package practice;
 
+<<<<<<< HEAD
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -163,3 +164,8 @@ public class searcher {
 		return 0;
 	}}
 	
+=======
+public class searcher {
+
+}
+>>>>>>> feature
